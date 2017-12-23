@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* .console {
+    font-family:Courier;
+   color: #CCCCCC;
+    background: #000000;
+    border: 3px double #CCCCCC;
+    padding: 10px;
+  } */
+.cat {
+    display:inline;
+}
+.code {
+    /*  margin-top:150px;*/
+      border-radius: 5px;
+      width:750px;
+      margin: 0 auto;
+      padding-top:15px;
+      font-size:30px;
+      background: #ccc;
+      height: 640px;
+      font-family: 'Monaco', 'Courier New';
+      text-align: left;
+      font-size:13px;
+      color: #fafafa;
+    }
+    
+    .console {
+      width:670px;
+      padding: 40px;
+      height: 550px;
+      margin:0 auto;
+      background: #383737;
+      box-sizing: content-box;
+    }
+    
+    span.answer {
+      color:#ccc;
+    }
+
+ul.social-buttons {
+    margin-bottom: 0;
+  }
+  ul.social-buttons li a {
+    display: block;
+    background-color: #222222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  ul.social-buttons li a:hover,
+  ul.social-buttons li a:focus,
+  ul.social-buttons li a:active {
+    background-color: darkslategray;
+  }
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+  footer span.copyright {
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+  }
+  footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+  }
