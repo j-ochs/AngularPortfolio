@@ -9,6 +9,8 @@ import { AlertModule } from 'ngx-bootstrap';
 import { ProjectsComponent } from './projects/projects.component';
 import { routes } from './app.router';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+import { ModalComponent } from './modal/modal.component';
 // import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
@@ -16,7 +18,9 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     AboutComponent,
     ProjectsComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

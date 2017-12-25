@@ -1,3 +1,199 @@
-<p>
-  projects works!
-</p>
+
+<div class="container-fluid">
+
+  <div class="row card-deck">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.makeuseof.com/wp-content/uploads/2014/11/d7e5c76cf4d884433a7e9384f1e8bc8c-670x335.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Gutenberg Search Engine</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" (click)="modal1.show()">test</button>
+          <app-modal #modal1>
+            <div class="app-modal-header">
+              header
+            </div>
+            <div class="app-modal-body">
+              Whatever content you like, form fields, anything
+              <input type="text">
+            </div>
+            <div class="app-modal-footer">
+              <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+              <button type="button" class="btn btn-default" (click)="modal2.show()">Show modal 2</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </app-modal>
+
+          <app-modal #modal2>
+            <div class="app-modal-header">
+              header
+            </div>
+            <div class="app-modal-body">
+              Modal 2
+            </div>
+            <div class="app-modal-footer">
+              <button type="button" class="btn btn-default" (click)="modal2.hide()">Close</button>
+              <button type="button" class="btn btn-default" (click)="modal3.show()">Show modal 3</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </app-modal>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card card-inverse card-primary text-center">
+            <a class="card-link" (click)="modal1.show()">
+          <img class="card-img-top" src="../../assets/networkMap.png" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Network Map</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <app-modal #modal1>
+              <div class="app-modal-header">
+                header
+              </div>
+              <div class="app-modal-body">
+                Whatever content you like, form fields, anything
+                <input type="text">
+              </div>
+              <div class="app-modal-footer">
+                <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+                <button type="button" class="btn btn-default" (click)="modal2.show()">Show modal 2</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </app-modal>
+          </div>
+          <div class="card-footer">
+              <small class="text-muted">Fall 2017</small>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    <div class="col-md-4">
+        <div class="card card-inverse card-primary text-center">
+            <a class="card-link" (click)="modal1.show()">
+          <img class="card-img-top" src="../../assets/plus1.png" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Plus-One</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <app-modal #modal1>
+              <div class="app-modal-header">
+                header
+              </div>
+              <div class="app-modal-body">
+                Whatever content you like, form fields, anything
+                <input type="text">
+              </div>
+              <div class="app-modal-footer">
+                <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+                <button type="button" class="btn btn-default" (click)="modal2.show()">Show modal 2</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </app-modal>
+          </div>
+          <div class="card-footer">
+              <small class="text-muted">Summer 2017</small>
+            </div>
+          </a>
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+
+
+    <div class="col-md-4">
+        <div class="card card-inverse card-primary text-center">
+            <a class="card-link" (click)="modal1.show()">
+          <img class="card-img-top" src="../../assets/Gomoku.png" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Gomoku AI</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <app-modal #modal1>
+              <div class="app-modal-header">
+                header
+              </div>
+              <div class="app-modal-body">
+                Whatever content you like, form fields, anything
+              </div>
+              <div class="app-modal-footer">
+                <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+                <button type="button" class="btn btn-default" (click)="modal2.show()">Show modal 2</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </app-modal>
+          </div>
+          <div class="card-footer">
+              <small class="text-muted">Spring 2016</small>
+            </div>
+          </a>
+        </div>
+      </div>
+
+          <div class="col-md-4">
+              <div class="card card-inverse card-primary text-center">
+                  <a class="card-link" (click)="modal1.show()">
+                <img class="card-img-top" src="../../assets/snake1.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Snake Game</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <app-modal #modal1>
+                    <div class="app-modal-header">
+                      header
+                    </div>
+                    <div class="app-modal-body">
+                      Whatever content you like, form fields, anything
+                      <input type="text">
+                    </div>
+                    <div class="app-modal-footer">
+                      <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+                      <button type="button" class="btn btn-default" (click)="modal2.show()">Show modal 2</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </app-modal>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Spring 2015</small>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card card-inverse card-primary text-center">
+                    <a class="card-link" (click)="modal1.show()">
+                  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzw8nr4QPM7vh0qqjfErSw3ZaWmje4gbGs8qfjxqFdDwVibiL_" alt="Card image cap">
+                  <div class="card-block">
+                    <h4 class="card-title">iCu</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <app-modal #modal1>
+                      <div class="app-modal-header">
+                        header
+                      </div>
+                      <div class="app-modal-body">
+                        Whatever content you like, form fields, anything
+                        <input type="text">
+                      </div>
+                      <div class="app-modal-footer">
+                        <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+                        <button type="button" class="btn btn-default" (click)="modal2.show()">Show modal 2</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </app-modal>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">Fall 2016</small>
+                    </div>
+                  </a>
+                </div>
+              </div>
+    </div>
+
+  </div>

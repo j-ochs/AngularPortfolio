@@ -18,10 +18,10 @@ Finally, run `ngh` to publish to Github Pages at the above link (*this command w
 To include a commit message, instead run `ngh --message="your commit message`
 
 #### Git Workflow
-- Add and commit changes on master (or other) *and* push changes
-- Checkout `gh-pages` branch, and fetch changes from other woring branch
-- Build and publish to Github Pages
-..* This will allow for an up to date working branch, and a publishing branch which only contains the compiled and built files
+1. Add and commit changes on master (or other) *and* push changes
+2. Checkout `gh-pages` branch, and fetch changes from other woring branch
+3. Build and publish to Github Pages
+...This will allow for an up to date working branch, and a publishing branch which only contains the compiled and built files for the web
 
 
 ## Build
