@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-inverse">
+<!-- <nav class="navbar navbar-default">
   <ul class="nav navbar-nav">
     <li><a style="font-size:1.2; color:#00b7c7" routerLink="home">Jacob Ochs</a></li>
     <li><a routerLink="home">Home</a></li>
@@ -7,12 +7,31 @@
     <li><a routerLink="projects">Projects</a></li>
     <li><a routerLink="contact">Contact</a></li>
   </ul>
-</nav>
+</nav> -->
+<nav class="navbar navbar-inverse" style="margin-bottom: 0">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                       
+        </button>
+        <a class="navbar-brand title-nav" style="font-size:1.2;" routerLink="home">Jacob Ochs</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a routerLink="home">Home</a></li>
+            <li><a routerLink="about">About</a></li>
+            <li><a routerLink="projects">Projects</a></li>
+            <!-- <li><a routerLink="contact">Contact</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <div style="text-align:center">
-  <h1 (click)="title='It worked. yay angular'">
-    {{title}}
-  </h1>
+  <h1>{{title}}</h1>
 <router-outlet></router-outlet>
 <footer>
   <div class="container">
@@ -24,9 +43,9 @@
               <ul class="list-inline social-buttons">
                   <li><a href="mailto:jochs@westmont.edu"><i class="fa fa-envelope"></i></a>
                   </li>
-                  <li><a href="https://www.linkedin.com/in/jacobochs"><i class="fa fa-linkedin"></i></a>
+                  <li><a href="https://www.linkedin.com/in/jacobochs" target="_blank"><i class="fa fa-linkedin"></i></a>
                   </li>
-                  <li><a href="https://www.github.com/j-ochs"><i class="fa fa-github"></i></a>
+                  <li><a href="https://www.github.com/j-ochs" target="_blank"><i class="fa fa-github"></i></a>
                   </li>
               </ul>
           </div>
