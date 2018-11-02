@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'
-import { HttpModule } from "@angular/http";
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -11,6 +11,8 @@ import { routes } from './app.router';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ModalComponent } from './modal/modal.component';
+import { NavComponent } from './nav/nav.component';
+import { ProjectCardComponent } from './projects/project-card/project-card.component';
 // import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
@@ -20,7 +22,9 @@ import { ModalComponent } from './modal/modal.component';
     ProjectsComponent,
     HomeComponent,
     ContactComponent,
-    ModalComponent
+    ModalComponent,
+    NavComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
