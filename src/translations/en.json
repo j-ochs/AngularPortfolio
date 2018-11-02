@@ -1,0 +1,52 @@
+{
+    "project": {
+        "title": {
+            "gutenberg": "Gutenberg Search Engine",
+            "networkMap": "Network Map",
+            "plusone": "Plus-One",            
+            "gomoku": "Gomoku AI",
+            "snake": "Snake Game",
+            "icu": "iCu"
+        },
+        "description": {
+            "gutenberg": "Uses Hadoop MapReduce, BerkeleyDB, and Ranked Retrieval methods to search for any term in the entire Project Gutenberg library.",
+            "networkMap": "An Angular app to visualize the health of the Wi-Fi network around Westmont's campus, organized by Wireless Access Points on a map.",
+            "plusone": "",            
+            "gomoku": "",
+            "snake": "",
+            "icu": ""
+        },
+        "date": {
+            "gutenberg": "Fall 2017",
+            "networkMap": "",
+            "plusone": "",            
+            "gomoku": "",
+            "snake": "",
+            "icu": ""
+        }
+    },
+    "project.gutenberg.title": "Gutenberg Search Engine",
+    "project.gutenberg.description": "Uses Hadoop MapReduce, BerkeleyDB, and Ranked Retrieval methods to search for any term in the entire Project Gutenberg library.",
+    "project.gutenberg.date": "Fall 2017",
+
+    "project.networkmap.title": "Network Map",
+    "project.networkmap.description": "An Angular app to visualize the health of the Wi-Fi network around Westmont's campus, organized by Wireless Access Points on a map.",
+    "project.networkmap.date": "Fall 2017",
+
+    "project.plusone.title": "Plus-One",
+    "project.plusone.description": "Project for Esri's annual intern hackathon, using ArcGIS API for collaborative route planning.",
+    "project.plusone.date": "Summer 2017",
+
+    "project.gomoku.title": "Gomoku AI",
+    "project.gomoku.description": "An Artificial Intelligence project which plays an informed game of gomoku against an opponent.",
+    "project.gomoku.date": "Spring 2016",
+
+    "project.snake.title": "Snake Game",
+    "project.snake.description": "The classic video game, written in Java.",
+    "project.snake.date": "Spring 2015",
+
+    "project.icu.title": "iCu",
+    "project.icu.description": "A network-wide 'hide and seek' game, the final project for Networks Class.",
+    "project.icu.date": "Fall 2016"
+
+}

@@ -1,0 +1,21 @@
+.card-img-top {
+    width:100%;
+    height:auto;
+}
+.card {
+    background: #eee;
+    margin-bottom: 15px;
+    border: 1px solid slategray;
+    margin: 20px;
+    display: inline-block;
+}
+.card-text {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.card-link {
+    cursor: pointer; 
+    text-decoration: none; 
+    color: #333;
+}

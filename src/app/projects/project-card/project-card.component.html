@@ -1,0 +1,27 @@
+<div class="col-md-4">
+    <div class="card card-inverse card-primary text-center">
+      <a class="card-link" (click)="modal1.show()">
+        <img class="card-img-top" src="{{ imageSrc }}" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">{{ title }}</h4>
+          <p class="card-text">{{ description }}</p>
+          <app-modal #modal1>
+            <div class="app-modal-header">
+              {{ title }}
+            </div>
+            <div class="app-modal-body">
+              There is currently no information about this project. Check back soon for updates
+              <input type="text">
+            </div>
+            <div class="app-modal-footer">
+              <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+
+            </div>
+          </app-modal>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">{{ date }}</small>
+        </div>
+      </a>
+    </div>
+  </div>
